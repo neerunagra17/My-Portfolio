@@ -1,0 +1,172 @@
+body {
+    color:#bfd8bd;;
+    background-color: black;
+    font-family: 'Playfair Display', serif;
+    background: url('portfolio.jpg') no-repeat center center;
+}
+span{
+    color:rgb(204, 106, 9);
+    font-size: 30px;
+}
+.center-pic{
+    border-radius: 25%;
+    padding: 35px;
+}
+.nav-bar{
+    background-color:#333333;
+    color:rgb(204, 106, 9);
+    padding: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    margin-right: auto;
+}
+.right-items{
+    display: flex;
+    gap: 10px;
+}
+.items{
+    padding: 10px 15px;
+    color: #bfd8bd;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.items:hover{
+    color:bisque;
+    border-color: bisque;
+}
+#media-icons{
+    display: inline;
+
+}
+#profile-icons{
+    padding-right: 35px;
+    padding-left: 20px;
+}
+.content{
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.media-icons{
+    display: flex;
+    justify-content: center;
+    color: #bfd8bd;
+}
+.center-lines{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bio1{
+    margin-bottom: 10%;
+    margin-left: 8%;
+    color: #bfd8bd;
+}
+.bio2{
+    font-size: 120%;
+    line-height: 30px;
+    margin-left: 8%;
+    margin-bottom: 8%;
+    color: #bfd8bd;
+    font-family: 'Times New Roman', Times, serif;
+}
+#bio-name{
+    font-size: 175%;
+}
+.upper{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-size: 350%;
+    text-align: center;
+}
+.heading:hover{
+    color:bisque;
+}
+.overview{
+    font-size: 250%;
+    color: rgb(204, 106, 9);
+}
+p{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 140%;
+    line-height: 30px;
+}
+.education{
+    font-size: 200%;
+    text-align: center;
+    color: rgb(204, 106, 9);
+}
+.edu{
+    font-size: 140%;
+    line-height: 45px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.acieve{
+    font-size: 200%;
+    text-align: center;
+    color: rgb(204, 106, 9);
+}
+.skills{
+    font-size: 300%;
+    color: rgb(204, 106, 9);
+
+}
+.skill{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.tech{
+    font-size: xx-large;
+}
+.contact-icons{
+    display:flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 6%;
+}
+.mail{
+    display:flex;
+    flex-direction: row;
+    margin-left: 37%;
+}
+.contact-icons i{
+    font-size: 2em;
+    color: #333333; /* Default icon color */
+    transition: color 0.3s ease;
+}
+.contact-icons i:hover {
+    color:cadetblue;
+}
+#u{
+    color:#bfd8bd;
+}
+.mail :hover{
+    color: cyan;
+}
+.h1{
+    color:rgb(204, 106, 9);
+}
+.h2{
+    color:rgb(204, 106, 9);
+}
